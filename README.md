@@ -1,14 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 17 16:39:23 2016
+# Movie-Trailer-Site
 
-@author: Ryan
-"""
-
-# Movie-Trailer-Project 
-
-My movie trailer website, a demonstration.
+My movie trailer website, a demonstration in python class usage and webbrowser functionality.
 
 ## Table of contents
 

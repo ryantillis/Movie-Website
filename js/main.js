@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 17 16:37:47 2016
-
-@author: Ryan
-"""
+// Animate in the movies when the page loads
+$(document).ready(function () {
+  $('.movie-tile').hide().first().show("fast", function showNext() {
+    $(this).next("div").show("fast", showNext);
+  });
+});
 
 // Pause the video on close
 $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
@@ -23,11 +22,4 @@ $(document).on('click', '.movie-tile', function (event) {
       'src': sourceUrl,
       'frameborder': 0
     }));
-});
-
-// Animate in the movies when the page loads
-$(document).ready(function () {
-  $('.movie-tile').hide().first().show("fast", function showNext() {
-    $(this).next("div").show("fast", showNext);
-  });
 });
