@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 17 16:11:34 2016
-
-@author: Ryan
-"""
-
 body {
     padding-top: 80px;
 }
@@ -35,4 +27,13 @@ body {
 .scale-media {
     padding-bottom: 56.25%;
     position: relative;
+}
+.scale-media iframe {
+    border: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
 }
