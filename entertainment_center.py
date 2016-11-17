@@ -5,7 +5,7 @@ Created on Thu Nov 17 14:21:39 2016
 
 @author: Ryan
 """
-
+import fresh_tomatoes
 import media
 
 interstellar = media.Movie("Interstellar", 
@@ -38,7 +38,8 @@ twotowers = media.Movie("The Lord of the Rings: The Two Towers",
                         "http://www.gstatic.com/tv/thumb/movieposters/30793/p30793_p_v8_am.jpg",
                         "https://www.youtube.com/watch?v=2dlRvAjU_RI")
 
-pan.show_trailer()
+movies=[interstellar, pan, shadows, moonrise, empire, twotowers]
+fresh_tomatoes.open_movies_page(movies)
 
 #blackmirror =
         #https://www.youtube.com/watch?v=THP9YQ3WT1k
