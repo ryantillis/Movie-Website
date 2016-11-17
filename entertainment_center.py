@@ -8,6 +8,7 @@ Created on Thu Nov 17 14:21:39 2016
 import fresh_tomatoes
 import media
 
+
 interstellar = media.Movie("Interstellar", 
                            "A brilliant NASA physicist is working on plans to save mankind by transporting Earth's population to a new home via a wormhole.",
                            "http://t1.gstatic.com/images?q=tbn:ANd9GcRf61mker2o4KH3CbVE7Zw5B1-VogMH8LfZHEaq3UdCMLxARZAB",
